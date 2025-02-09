@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 import NoteSkeleton from '../components/NoteSkeleton';
 import { getAuthHeaders } from '../utils';
 
-const apiUrl = import.meta.env.VITE_APIS_BASE_URL;
+const apiUrl = import.meta.env.VITE_API_BASE_URL;
 
 const Notes = () => {
   const [notes, setNotes] = useState([]);
